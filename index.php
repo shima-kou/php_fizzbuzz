@@ -13,7 +13,7 @@
         $fizz = $_POST['fizzNum'];
         $buzz = $_POST['buzzNum'];
       ?>
-      <form action="./" method="POST">
+      <form method="POST">
         <p class="input-wrap">
           <span>FizzNum: </span><span><input type="text" name="fizzNum" value="<?php echo $_POST["fizzNum"] ?>" /></span>
         </p>
